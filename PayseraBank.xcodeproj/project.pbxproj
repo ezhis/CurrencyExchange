@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62DFB09D1F31010700E6747C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DFB09C1F31010700E6747C /* AppDelegate.swift */; };
+		62DFB09F1F31010700E6747C /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DFB09E1F31010700E6747C /* AccountsViewController.swift */; };
+		62DFB0A21F31010700E6747C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62DFB0A01F31010700E6747C /* Main.storyboard */; };
+		62DFB0A41F31010700E6747C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62DFB0A31F31010700E6747C /* Assets.xcassets */; };
+		62DFB0A71F31010700E6747C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62DFB0A51F31010700E6747C /* LaunchScreen.storyboard */; };
+		62DFB0AF1F31010F00E6747C /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DFB0AE1F31010F00E6747C /* BankAccount.swift */; };
+		62DFB0B31F3114BC00E6747C /* TransferMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DFB0B21F3114BC00E6747C /* TransferMoneyViewController.swift */; };
+		62DFB0B51F31FE5D00E6747C /* OperationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DFB0B41F31FE5D00E6747C /* OperationsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		62DFB0991F31010700E6747C /* PayseraBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayseraBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62DFB09C1F31010700E6747C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62DFB09E1F31010700E6747C /* AccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsViewController.swift; sourceTree = "<group>"; };
+		62DFB0A11F31010700E6747C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62DFB0A31F31010700E6747C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = PayseraBank/Assets.xcassets; sourceTree = "<group>"; };
+		62DFB0A61F31010700E6747C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62DFB0A81F31010700E6747C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = PayseraBank/Info.plist; sourceTree = "<group>"; };
+		62DFB0AE1F31010F00E6747C /* BankAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BankAccount.swift; path = PayseraBank/BankAccount.swift; sourceTree = "<group>"; };
+		62DFB0B21F3114BC00E6747C /* TransferMoneyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferMoneyViewController.swift; sourceTree = "<group>"; };
+		62DFB0B41F31FE5D00E6747C /* OperationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62DFB0961F31010700E6747C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62DFB0901F31010700E6747C = {
+			isa = PBXGroup;
+			children = (
+				62DFB09B1F31010700E6747C /* PayseraBank */,
+				62DFB09A1F31010700E6747C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62DFB09A1F31010700E6747C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62DFB0991F31010700E6747C /* PayseraBank.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62DFB09B1F31010700E6747C /* PayseraBank */ = {
+			isa = PBXGroup;
+			children = (
+				62DFB0B71F331B8000E6747C /* Supporting files */,
+				62DFB0B61F33164100E6747C /* ViewController */,
+				62DFB0B11F31012500E6747C /* Assets */,
+				62DFB0B01F31011600E6747C /* Model */,
+				62DFB09C1F31010700E6747C /* AppDelegate.swift */,
+			);
+			path = PayseraBank;
+			sourceTree = "<group>";
+		};
+		62DFB0B01F31011600E6747C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				62DFB0AE1F31010F00E6747C /* BankAccount.swift */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		62DFB0B11F31012500E6747C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				62DFB0A01F31010700E6747C /* Main.storyboard */,
+				62DFB0A31F31010700E6747C /* Assets.xcassets */,
+				62DFB0A51F31010700E6747C /* LaunchScreen.storyboard */,
+			);
+			name = Assets;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		62DFB0B61F33164100E6747C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				62DFB09E1F31010700E6747C /* AccountsViewController.swift */,
+				62DFB0B21F3114BC00E6747C /* TransferMoneyViewController.swift */,
+				62DFB0B41F31FE5D00E6747C /* OperationsViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		62DFB0B71F331B8000E6747C /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				62DFB0A81F31010700E6747C /* Info.plist */,
+			);
+			name = "Supporting files";
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62DFB0981F31010700E6747C /* PayseraBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62DFB0AB1F31010700E6747C /* Build configuration list for PBXNativeTarget "PayseraBank" */;
+			buildPhases = (
+				62DFB0951F31010700E6747C /* Sources */,
+				62DFB0961F31010700E6747C /* Frameworks */,
+				62DFB0971F31010700E6747C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayseraBank;
+			productName = PayseraBank;
+			productReference = 62DFB0991F31010700E6747C /* PayseraBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62DFB0911F31010700E6747C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Egidijus Ambrazas";
+				TargetAttributes = {
+					62DFB0981F31010700E6747C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4HQ2UEVEEG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 62DFB0941F31010700E6747C /* Build configuration list for PBXProject "PayseraBank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62DFB0901F31010700E6747C;
+			productRefGroup = 62DFB09A1F31010700E6747C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62DFB0981F31010700E6747C /* PayseraBank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62DFB0971F31010700E6747C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62DFB0A71F31010700E6747C /* LaunchScreen.storyboard in Resources */,
+				62DFB0A41F31010700E6747C /* Assets.xcassets in Resources */,
+				62DFB0A21F31010700E6747C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62DFB0951F31010700E6747C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62DFB0B31F3114BC00E6747C /* TransferMoneyViewController.swift in Sources */,
+				62DFB09F1F31010700E6747C /* AccountsViewController.swift in Sources */,
+				62DFB0B51F31FE5D00E6747C /* OperationsViewController.swift in Sources */,
+				62DFB09D1F31010700E6747C /* AppDelegate.swift in Sources */,
+				62DFB0AF1F31010F00E6747C /* BankAccount.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		62DFB0A01F31010700E6747C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62DFB0A11F31010700E6747C /* Base */,
+			);
+			name = Main.storyboard;
+			path = PayseraBank;
+			sourceTree = "<group>";
+		};
+		62DFB0A51F31010700E6747C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62DFB0A61F31010700E6747C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = PayseraBank;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62DFB0A91F31010700E6747C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62DFB0AA1F31010700E6747C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62DFB0AC1F31010700E6747C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4HQ2UEVEEG;
+				INFOPLIST_FILE = PayseraBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paysera.demo.PayseraBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		62DFB0AD1F31010700E6747C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4HQ2UEVEEG;
+				INFOPLIST_FILE = PayseraBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paysera.demo.PayseraBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62DFB0941F31010700E6747C /* Build configuration list for PBXProject "PayseraBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62DFB0A91F31010700E6747C /* Debug */,
+				62DFB0AA1F31010700E6747C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62DFB0AB1F31010700E6747C /* Build configuration list for PBXNativeTarget "PayseraBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62DFB0AC1F31010700E6747C /* Debug */,
+				62DFB0AD1F31010700E6747C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62DFB0911F31010700E6747C /* Project object */;
+}

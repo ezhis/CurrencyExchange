@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>PayseraDemo.xcscheme</key>
+		<key>PayseraBank.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>625F6CF01F30FD2A001EE6A7</key>
+		<key>62DFB0981F31010700E6747C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

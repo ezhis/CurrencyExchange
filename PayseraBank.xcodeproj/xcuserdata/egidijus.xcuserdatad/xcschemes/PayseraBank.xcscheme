@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "625F6CF01F30FD2A001EE6A7"
-               BuildableName = "PayseraDemo.app"
-               BlueprintName = "PayseraDemo"
-               ReferencedContainer = "container:PayseraDemo.xcodeproj">
+               BlueprintIdentifier = "62DFB0981F31010700E6747C"
+               BuildableName = "PayseraBank.app"
+               BlueprintName = "PayseraBank"
+               ReferencedContainer = "container:PayseraBank.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "625F6CF01F30FD2A001EE6A7"
-            BuildableName = "PayseraDemo.app"
-            BlueprintName = "PayseraDemo"
-            ReferencedContainer = "container:PayseraDemo.xcodeproj">
+            BlueprintIdentifier = "62DFB0981F31010700E6747C"
+            BuildableName = "PayseraBank.app"
+            BlueprintName = "PayseraBank"
+            ReferencedContainer = "container:PayseraBank.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "625F6CF01F30FD2A001EE6A7"
-            BuildableName = "PayseraDemo.app"
-            BlueprintName = "PayseraDemo"
-            ReferencedContainer = "container:PayseraDemo.xcodeproj">
+            BlueprintIdentifier = "62DFB0981F31010700E6747C"
+            BuildableName = "PayseraBank.app"
+            BlueprintName = "PayseraBank"
+            ReferencedContainer = "container:PayseraBank.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "625F6CF01F30FD2A001EE6A7"
-            BuildableName = "PayseraDemo.app"
-            BlueprintName = "PayseraDemo"
-            ReferencedContainer = "container:PayseraDemo.xcodeproj">
+            BlueprintIdentifier = "62DFB0981F31010700E6747C"
+            BuildableName = "PayseraBank.app"
+            BlueprintName = "PayseraBank"
+            ReferencedContainer = "container:PayseraBank.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

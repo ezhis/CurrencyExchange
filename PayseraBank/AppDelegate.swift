@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  PayseraDemo
+//  PayseraBank
 //
 //  Created by Egidijus Ambrazas on 01/08/2017.
 //  Copyright © 2017 Egidijus Ambrazas. All rights reserved.
